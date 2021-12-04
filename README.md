@@ -49,7 +49,7 @@ I learned to work with the images and also learned about hover effects.
 
 ## Author
 
-- Website - [Rohit gour](https://www.your-site.com)
+- Website - [Rohit gour](https://github.com/Rohitgour03)
 - Frontend Mentor - [@Rohitgour03](https://www.frontendmentor.io/profile/Rohitgour03)
 - Twitter - [@Rohitgour03](https://www.twitter.com/Rohitgour03)
 
