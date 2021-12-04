@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font: 300 1rem/1.5rem 'Outfit', sans-serif;
+    font-size: 18px;
+    min-height: 100vh;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 54%, 11%);
+}
+
+body,
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* card container*/
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+
+/* stying the hero image */
+
+figure {
+    margin: 0 auto;
+    position: relative;
+    transition: 300ms;
+}
+
+.etherum-img {
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.icon-view {
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+    transition: 300ms;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure:hover .icon-view {
+    opacity: 0.5;
+}
+
+
+/* styling the main content of NFT card*/
+
+.title {
+    transition: 300ms;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.text {
+    font-size: 1rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.nft-price-box,
+.etherum-ctn,
+.time-ctn,
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.etherum-ctn {
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.time-ctn {
+    color: hsl(215, 51%, 70%);
+}
+
+.nft-price-box span {
+    padding-left: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.separation-line {
+    height: 1px;
+    width: 100%;
+    background-color: hsl(215, 32%, 27%);
+    margin: 1.2rem 0rem;
+}
+
+
+/* Styling the footer of the NFT card */
+
+footer {
+    justify-content: flex-start;
+}
+
+.avatar-img {
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.creator {
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-left: 0.3rem;
+    transition: 300ms;
+}
+
+.creator:hover {
+    color: hsl(178, 100%, 50%);
+}
